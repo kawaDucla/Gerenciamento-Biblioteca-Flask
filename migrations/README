@@ -7,7 +7,7 @@ Projeto com foco educacional e prática de desenvolvimento backend com Python.
 
 ---
 
-##Funcionalidades
+Funcionalidades
 
 * Cadastro de bibliotecário
 * Login de bibliotecário
@@ -19,7 +19,7 @@ Projeto com foco educacional e prática de desenvolvimento backend com Python.
 
 ---
 
-## Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 * Python
 * Flask
@@ -31,7 +31,7 @@ Projeto com foco educacional e prática de desenvolvimento backend com Python.
 
 ---
 
-## Banco de Dados
+Banco de Dados
 
 O projeto utiliza SQLite, dispensando configurações externas.
 
@@ -44,83 +44,47 @@ Principais tabelas:
 
 ---
 
-## Estrutura do Projeto
+Como Executar o Projeto
 
-```
-sistema-biblioteca/
-├── app.py
-├── requirements.txt
-│
-├── templates/
-│   ├── login.html
-│   ├── cadastro.html
-│   ├── livros.html
-│   ├── emprestimos.html
-│   └── dashboard.html
-│
-├── static/
-│   ├── css/
-│   └── img/
-│
-└── database/
-    └── biblioteca.db
-```
-
----
-
-## Como Executar o Projeto
+- No terminal: 
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+
+git clone https://github.com/kawaDucla/Gerenciamento-Biblioteca-Flask.github
+
 
 2. Acesse a pasta do projeto:
 
-```bash
 cd sistema-biblioteca
-```
 
 3. Crie e ative o ambiente virtual:
 
-```bash
 python -m venv venv
-```
 
 Windows:
 
-```bash
 venv\Scripts\activate
-```
 
 Linux ou macOS:
 
-```bash
 source venv/bin/activate
-```
 
 4. Instale as dependências:
 
-```bash
 pip install -r requirements.txt
-```
 
 5. Execute a aplicação:
 
-```bash
 flask run
-```
 
 6. Acesse no navegador:
 
-```
 http://127.0.0.1:5000
-```
 
 ---
 
-## Objetivo do Projeto
+Objetivo do Projeto
 
 Consolidar conhecimentos em:
 
@@ -132,7 +96,7 @@ Consolidar conhecimentos em:
 
 ---
 
-## Melhorias Futuras
+Melhorias Futuras
 
 * Notificação de atraso na devolução
 * Sistema de multa
@@ -141,20 +105,8 @@ Consolidar conhecimentos em:
 * Diferentes níveis de acesso
 
 ---
-
-## Autor
+Autor
 
 Kawã Felipe Ducla Aguiar
 
 Projeto desenvolvido para fins educacionais utilizando Python e Flask.
-
----
-
-Se quiser, posso:
-
-* deixar **mais simples** (padrão trabalho escolar)
-* deixar **mais profissional** (padrão portfólio)
-* criar um **README em inglês**
-* montar o **requirements.txt**
-
-Só falar 👍
