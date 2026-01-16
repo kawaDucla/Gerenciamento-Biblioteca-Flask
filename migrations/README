@@ -1,12 +1,4 @@
-Perfeito, entendi 😄
-O GitHub está interpretando os `***` como **Markdown** e quebrando o visual.
-Abaixo está o **README pronto para o GitHub**, limpo, sem caracteres que causem formatação estranha.
-
-👉 **É só copiar e colar no `README.md`**
-
----
-
-# Sistema de Biblioteca com Flask
+Sistema de Biblioteca com Flask
 
 Sistema de gerenciamento de biblioteca desenvolvido em Flask, utilizando SQLite como banco de dados.
 O sistema permite que o bibliotecário se cadastre, realize empréstimos de livros para alunos, defina a data de devolução e visualize os livros emprestados.
@@ -15,7 +7,7 @@ Projeto com foco educacional e prática de desenvolvimento backend com Python.
 
 ---
 
-## Funcionalidades
+##Funcionalidades
 
 * Cadastro de bibliotecário
 * Login de bibliotecário
