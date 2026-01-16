@@ -1,1 +1,140 @@
-Single-database configuration for Flask.
+Perfeito 👍
+Segue o **README atualizado**, já considerando **SQLite** e **data de devolução**:
+
+---
+
+# 📚 Sistema de Biblioteca – Flask
+
+Este projeto é um **Sistema de Gerenciamento de Biblioteca** desenvolvido com **Flask**, utilizando **SQLite** como banco de dados.
+O sistema permite que o **bibliotecário se cadastre**, realize **empréstimos de livros para alunos**, defina a **data de devolução** e visualize os **livros atualmente emprestados**.
+
+O projeto foi desenvolvido com fins educacionais, focando em backend com Flask e manipulação de banco de dados.
+
+---
+
+## 🚀 Funcionalidades
+
+* ✅ Cadastro de bibliotecário
+* 🔐 Login de bibliotecário
+* 📖 Cadastro e gerenciamento de livros
+* 👨‍🎓 Empréstimo de livros para alunos
+* 📅 Definição da data de devolução
+* 📋 Visualização dos livros emprestados
+* 🕒 Controle de empréstimos ativos
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Python**
+* **Flask**
+* **SQLite**
+* **HTML5**
+* **CSS3**
+* **Jinja2**
+* **Werkzeug**
+
+---
+
+## 🗄️ Banco de Dados
+
+O sistema utiliza **SQLite**, facilitando a execução sem necessidade de configurações externas.
+
+Exemplo de tabelas:
+
+* `bibliotecarios`
+* `livros`
+* `alunos`
+* `emprestimos` (com data de empréstimo e data de devolução)
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+### 1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+### 2️⃣ Acesse a pasta do projeto
+
+```bash
+cd sistema-biblioteca
+```
+
+### 3️⃣ Crie e ative um ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux/Mac**
+
+```bash
+source venv/bin/activate
+```
+
+### 4️⃣ Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5️⃣ Execute a aplicação
+
+```bash
+flask run
+```
+
+Acesse no navegador:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🧠 Objetivo do Projeto
+
+Este projeto tem como objetivo praticar e consolidar conhecimentos em:
+
+* Desenvolvimento web com Flask
+* CRUD com SQLite
+* Autenticação de usuários
+* Relacionamento entre tabelas
+* Organização de projetos backend
+
+---
+
+## 🔮 Possíveis Melhorias Futuras
+
+* 🔔 Notificação de atraso na devolução
+* 💰 Sistema de multa por atraso
+* 📊 Relatórios de empréstimos
+* 📱 Interface responsiva
+* 👥 Diferentes níveis de acesso
+
+---
+
+## 👨‍💻 Autor
+
+**Kawã Felipe Ducla Aguiar**
+Projeto desenvolvido para estudo e prática em **Python com Flask**.
+
+---
+
+Se quiser, posso:
+
+* adaptar o texto para **trabalho escolar**
+* deixar mais **curto** ou mais **técnico**
+* escrever o **DER do banco**
+* ou montar o README em **inglês**
+
+Só me dizer 😄
