@@ -1,1 +1,112 @@
-Single-database configuration for Flask.
+Sistema de Biblioteca com Flask
+
+Sistema de gerenciamento de biblioteca desenvolvido em Flask, utilizando SQLite como banco de dados.
+O sistema permite que o bibliotecário se cadastre, realize empréstimos de livros para alunos, defina a data de devolução e visualize os livros emprestados.
+
+Projeto com foco educacional e prática de desenvolvimento backend com Python.
+
+---
+
+Funcionalidades
+
+* Cadastro de bibliotecário
+* Login de bibliotecário
+* Cadastro e gerenciamento de livros
+* Empréstimo de livros para alunos
+* Definição da data de devolução
+* Visualização dos livros emprestados
+* Controle de empréstimos ativos
+
+---
+
+Tecnologias Utilizadas
+
+* Python
+* Flask
+* SQLite
+* HTML5
+* CSS3
+* Jinja2
+* Werkzeug
+
+---
+
+Banco de Dados
+
+O projeto utiliza SQLite, dispensando configurações externas.
+
+Principais tabelas:
+
+* bibliotecarios
+* livros
+* alunos
+* emprestimos (com data de empréstimo e data de devolução)
+
+---
+
+Como Executar o Projeto
+
+- No terminal: 
+
+1. Clone o repositório:
+
+
+git clone https://github.com/kawaDucla/Gerenciamento-Biblioteca-Flask.github
+
+
+2. Acesse a pasta do projeto:
+
+cd sistema-biblioteca
+
+3. Crie e ative o ambiente virtual:
+
+python -m venv venv
+
+Windows:
+
+venv\Scripts\activate
+
+Linux ou macOS:
+
+source venv/bin/activate
+
+4. Instale as dependências:
+
+pip install -r requirements.txt
+
+5. Execute a aplicação:
+
+flask run
+
+6. Acesse no navegador:
+
+http://127.0.0.1:5000
+
+---
+
+Objetivo do Projeto
+
+Consolidar conhecimentos em:
+
+* Desenvolvimento web com Flask
+* CRUD com SQLite
+* Autenticação de usuários
+* Relacionamento entre tabelas
+* Organização de projetos backend
+
+---
+
+Melhorias Futuras
+
+* Notificação de atraso na devolução
+* Sistema de multa
+* Relatórios de empréstimos
+* Interface responsiva
+* Diferentes níveis de acesso
+
+---
+Autor
+
+Kawã Felipe Ducla Aguiar
+
+Projeto desenvolvido para fins educacionais utilizando Python e Flask.
